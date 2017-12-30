@@ -1,0 +1,91 @@
+ .black_show
+    {
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index: 1001;
+        -moz-opacity: 0.8;
+        opacity: .90;
+        filter: alpha(opacity=80);
+    }
+    .white_show
+    {
+        display: none;
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        width: 90%;
+        height: 90%;
+        padding: 16px;
+        -webkit-border-radius: 10px;
+        border: 16px solid orange;
+        background-color: white;
+        z-index: 1002;
+        overflow: auto;
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+    
+    a.modalCloseImg {
+	background:url(/img/x.png) no-repeat; /* adjust url as required */
+	width:25px;
+	height:29px;
+	display:inline;
+	z-index:3200;
+	position:absolute;
+	top:0px;
+	right:0px;
+	cursor:pointer;
+}
+
+a.nextImg {
+	width:75px;
+	height:79px;
+	display:inline;
+	z-index:3300;
+	position:absolute;
+	top:50%;
+	right:0px;
+	cursor:pointer;
+}
+
+a.prevImg {
+	width:75px;
+	height:79px;
+	display:inline;
+	z-index:3400;
+	position:absolute;
+	top:50%;
+	left:0px;
+	cursor:pointer;
+}
+
+.prev-img-tran {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+
+.carous-img {
+    opacity: 0.2;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.carous-img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.thumbnail {
+    float: left;
+    width: 110px;
+    height: 90px;
+    margin: 5px;
+}

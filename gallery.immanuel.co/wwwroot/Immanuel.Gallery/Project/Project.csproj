@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CBA4825-00BB-410A-94E4-127407E1D567}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin.php" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\clockpicker.css" />
+    <Content Include="css\fullcalendar.css" />
+    <Content Include="css\jquery-clockpicker.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\popup.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="files.php" />
+    <Content Include="files\100_2204.JPG" />
+    <Content Include="files\b %281%29.jpg" />
+    <Content Include="files\b %2810%29.jpg" />
+    <Content Include="files\b %2811%29.jpg" />
+    <Content Include="files\b %2812%29.jpg" />
+    <Content Include="files\b %2813%29.jpg" />
+    <Content Include="files\b %2814%29.jpg" />
+    <Content Include="files\b %2815%29.jpg" />
+    <Content Include="files\b %2816%29.jpg" />
+    <Content Include="files\b %2817%29.jpg" />
+    <Content Include="files\b %282%29.jpg" />
+    <Content Include="files\b %283%29.jpg" />
+    <Content Include="files\b %284%29.jpg" />
+    <Content Include="files\b %285%29.jpg" />
+    <Content Include="files\b %286%29.jpg" />
+    <Content Include="files\b %287%29.jpg" />
+    <Content Include="files\b %288%29.jpg" />
+    <Content Include="files\b %289%29.jpg" />
+    <Content Include="files\b.jpg" />
+    <Content Include="files\C360_2015-10-10-08-09-22-927.jpg" />
+    <Content Include="files\C360_2015-10-10-08-14-20-873.jpg" />
+    <Content Include="files\C360_2015-10-10-18-17-46-898.jpg" />
+    <Content Include="files\C360_2015-10-11-15-37-31-510.jpg" />
+    <Content Include="files\C360_2015-10-14-08-02-38-706.jpg" />
+    <Content Include="files\C360_2015-10-18-10-52-48-006.jpg" />
+    <Content Include="files\C360_2015-10-18-13-54-58-566.jpg" />
+    <Content Include="files\C360_2015-10-18-15-46-22-570.jpg" />
+    <Content Include="files\C360_2015-10-23-17-56-25-122.jpg" />
+    <Content Include="files\C360_2015-10-24-08-43-43-730.jpg" />
+    <Content Include="files\C360_2015-10-24-15-00-53-903.jpg" />
+    <Content Include="files\C360_2015-10-27-07-40-04-294.jpg" />
+    <Content Include="files\C360_2015-10-31-08-12-11-966.jpg" />
+    <Content Include="files\C360_2015-10-31-09-19-50-695.jpg" />
+    <Content Include="files\C360_2015-11-04-17-03-17-345.jpg" />
+    <Content Include="files\C360_2015-11-04-17-04-05-172.jpg" />
+    <Content Include="files\C360_2015-11-04-17-05-08-732.jpg" />
+    <Content Include="files\C360_2015-11-05-21-40-30-260.jpg" />
+    <Content Include="files\C360_2015-11-16-07-27-32-846.jpg" />
+    <Content Include="files\C360_2015-11-18-06-58-27-086.jpg" />
+    <Content Include="files\C360_2015-12-03-11-54-09-745.jpg" />
+    <Content Include="files\C360_2015-12-08-10-59-35-671.jpg" />
+    <Content Include="files\C360_2015-12-08-17-14-13-556.jpg" />
+    <Content Include="files\C360_2015-12-24-10-05-55-072.jpg" />
+    <Content Include="files\C360_2015-12-24-10-06-32-695 %281%29.jpg" />
+    <Content Include="files\C360_2015-12-24-10-06-32-695.jpg" />
+    <Content Include="files\C360_2015-12-24-13-08-15-418.jpg" />
+    <Content Include="files\DSC_0003.JPG" />
+    <Content Include="files\DSC_0004.JPG" />
+    <Content Include="files\DSC_0007 %281%29.JPG" />
+    <Content Include="files\DSC_0007.JPG" />
+    <Content Include="files\DSC_0007~2.jpg" />
+    <Content Include="files\DSC_0011.JPG" />
+    <Content Include="files\DSC_0012.JPG" />
+    <Content Include="files\DSC_0017.JPG" />
+    <Content Include="files\DSC_0019.JPG" />
+    <Content Include="files\DSC_0020.JPG" />
+    <Content Include="files\DSC_0023.JPG" />
+    <Content Include="files\DSC_0025.JPG" />
+    <Content Include="files\DSC_0026.JPG" />
+    <Content Include="files\DSC_0027.JPG" />
+    <Content Include="files\DSC_0032.JPG" />
+    <Content Include="files\DSC_0034.JPG" />
+    <Content Include="files\DSC_0053.JPG" />
+    <Content Include="files\DSC_0055.JPG" />
+    <Content Include="files\DSC_0060.JPG" />
+    <Content Include="files\DSC_0062.JPG" />
+    <Content Include="files\DSC_0083.JPG" />
+    <Content Include="files\DSC_0084.JPG" />
+    <Content Include="files\DSC_0089.JPG" />
+    <Content Include="files\DSC_0094.JPG" />
+    <Content Include="files\DSC_0110.JPG" />
+    <Content Include="files\DSC_0116.JPG" />
+    <Content Include="files\DSC_0132.JPG" />
+    <Content Include="files\DSC_0262.JPG" />
+    <Content Include="files\FB_IMG_1432378396052.jpg" />
+    <Content Include="files\FB_IMG_1439041166407.jpg" />
+    <Content Include="files\FB_IMG_1439041301327.jpg" />
+    <Content Include="files\IMG-20150420-WA0000.jpg" />
+    <Content Include="files\IMG_20140320_155152.jpg" />
+    <Content Include="files\IMG_20140321_152920.jpg" />
+    <Content Include="files\IMG_20150408_161447.jpg" />
+    <Content Include="files\pictures-of-animals-a-different-natural-photography-15.jpg" />
+    <Content Include="files\received_363816083808955.jpeg" />
+    <Content Include="files\received_364236840433546.jpeg" />
+    <Content Include="files\received_364236947100202.jpeg" />
+    <Content Include="files\received_364764077047489.jpeg" />
+    <Content Include="files\received_365287443661819.jpeg" />
+    <Content Include="files\received_366861206837776 %281%29.jpeg" />
+    <Content Include="files\received_366861206837776.jpeg" />
+    <Content Include="files\Screenshot_2015-06-21-23-03-39.png" />
+    <Content Include="files\Screenshot_2015-09-03-19-47-12.png" />
+    <Content Include="files\thumbnail\100_2204.JPG" />
+    <Content Include="files\thumbnail\C360_2015-10-10-08-09-22-927.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-10-08-14-20-873.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-10-18-17-46-898.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-11-15-37-31-510.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-14-08-02-38-706.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-18-10-52-48-006.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-18-13-54-58-566.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-18-15-46-22-570.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-23-17-56-25-122.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-24-08-43-43-730.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-24-15-00-53-903.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-27-07-40-04-294.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-31-08-12-11-966.jpg" />
+    <Content Include="files\thumbnail\C360_2015-10-31-09-19-50-695.jpg" />
+    <Content Include="files\thumbnail\C360_2015-11-04-17-03-17-345.jpg" />
+    <Content Include="files\thumbnail\C360_2015-11-04-17-04-05-172.jpg" />
+    <Content Include="files\thumbnail\C360_2015-11-04-17-05-08-732.jpg" />
+    <Content Include="files\thumbnail\C360_2015-11-05-21-40-30-260.jpg" />
+    <Content Include="files\thumbnail\C360_2015-11-16-07-27-32-846.jpg" />
+    <Content Include="files\thumbnail\C360_2015-11-18-06-58-27-086.jpg" />
+    <Content Include="files\thumbnail\C360_2015-12-03-11-54-09-745.jpg" />
+    <Content Include="files\thumbnail\C360_2015-12-08-10-59-35-671.jpg" />
+    <Content Include="files\thumbnail\C360_2015-12-08-17-14-13-556.jpg" />
+    <Content Include="files\thumbnail\C360_2015-12-24-10-05-55-072.jpg" />
+    <Content Include="files\thumbnail\C360_2015-12-24-10-06-32-695 %281%29.jpg" />
+    <Content Include="files\thumbnail\C360_2015-12-24-10-06-32-695.jpg" />
+    <Content Include="files\thumbnail\C360_2015-12-24-13-08-15-418.jpg" />
+    <Content Include="files\thumbnail\DSC_0003.JPG" />
+    <Content Include="files\thumbnail\DSC_0004.JPG" />
+    <Content Include="files\thumbnail\DSC_0007 %281%29.JPG" />
+    <Content Include="files\thumbnail\DSC_0007.JPG" />
+    <Content Include="files\thumbnail\DSC_0007~2.jpg" />
+    <Content Include="files\thumbnail\DSC_0011.JPG" />
+    <Content Include="files\thumbnail\DSC_0012.JPG" />
+    <Content Include="files\thumbnail\DSC_0017.JPG" />
+    <Content Include="files\thumbnail\DSC_0019.JPG" />
+    <Content Include="files\thumbnail\DSC_0020.JPG" />
+    <Content Include="files\thumbnail\DSC_0023.JPG" />
+    <Content Include="files\thumbnail\DSC_0025.JPG" />
+    <Content Include="files\thumbnail\DSC_0026.JPG" />
+    <Content Include="files\thumbnail\DSC_0027.JPG" />
+    <Content Include="files\thumbnail\DSC_0032.JPG" />
+    <Content Include="files\thumbnail\DSC_0034.JPG" />
+    <Content Include="files\thumbnail\DSC_0053.JPG" />
+    <Content Include="files\thumbnail\DSC_0055.JPG" />
+    <Content Include="files\thumbnail\DSC_0060.JPG" />
+    <Content Include="files\thumbnail\DSC_0062.JPG" />
+    <Content Include="files\thumbnail\DSC_0083.JPG" />
+    <Content Include="files\thumbnail\DSC_0084.JPG" />
+    <Content Include="files\thumbnail\DSC_0089.JPG" />
+    <Content Include="files\thumbnail\DSC_0094.JPG" />
+    <Content Include="files\thumbnail\DSC_0110.JPG" />
+    <Content Include="files\thumbnail\DSC_0116.JPG" />
+    <Content Include="files\thumbnail\DSC_0132.JPG" />
+    <Content Include="files\thumbnail\DSC_0262.JPG" />
+    <Content Include="files\thumbnail\FB_IMG_1432378396052.jpg" />
+    <Content Include="files\thumbnail\FB_IMG_1439041166407.jpg" />
+    <Content Include="files\thumbnail\FB_IMG_1439041301327.jpg" />
+    <Content Include="files\thumbnail\IMG-20150420-WA0000.jpg" />
+    <Content Include="files\thumbnail\IMG_20140320_155152.jpg" />
+    <Content Include="files\thumbnail\IMG_20140321_152920.jpg" />
+    <Content Include="files\thumbnail\IMG_20150408_161447.jpg" />
+    <Content Include="files\thumbnail\pictures-of-animals-a-different-natural-photography-15.jpg" />
+    <Content Include="files\thumbnail\received_363816083808955.jpeg" />
+    <Content Include="files\thumbnail\received_364236840433546.jpeg" />
+    <Content Include="files\thumbnail\received_364236947100202.jpeg" />
+    <Content Include="files\thumbnail\received_364764077047489.jpeg" />
+    <Content Include="files\thumbnail\received_365287443661819.jpeg" />
+    <Content Include="files\thumbnail\received_366861206837776 %281%29.jpeg" />
+    <Content Include="files\thumbnail\received_366861206837776.jpeg" />
+    <Content Include="files\thumbnail\Screenshot_2015-06-21-23-03-39.png" />
+    <Content Include="files\thumbnail\Screenshot_2015-09-03-19-47-12.png" />
+    <Content Include="img\delete.png" />
+    <Content Include="img\prev.png" />
+    <Content Include="img\x.png" />
+    <Content Include="index.php" />
+    <Content Include="js\appoint-client.js" />
+    <Content Include="js\appoint.js" />
+    <Content Include="js\clockpicker.js" />
+    <Content Include="js\fullcalendar.js" />
+    <Content Include="js\jquery-1.11.3.min.js" />
+    <Content Include="js\jquery-clockpicker.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.fileupload.js" />
+    <Content Include="js\jquery.iframe-transport.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.ui.widget.js" />
+    <Content Include="js\moment.min.js" />
+    <Content Include="js\popup.js" />
+    <Content Include="process.php" />
+    <Content Include="UploadHandler.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
