@@ -8,6 +8,18 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/popup.css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta name="MobileOptimized" content="width" />
+<meta name="description" content="Personal Photo collections from Bless camera" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<META NAME="ROBOTS" CONTENT="All, index, follow">
+<meta name="revisit-after" content="7 days">
+<link rel="shortcut icon" href="https://gallery.immanuel.co/favicon.ico">
+<META NAME="author" CONTENT="Immanuel">
+<meta name="keywords" content="Picture Gallery, Personal Photo Collections, Bless Photos, Bless Pictures" />
   
   <style>
   .i-contain:hover .delete {
